@@ -8,3 +8,7 @@ lst = [
 ]
 df=pd.DataFrame(lst)
 print(df)
+
+# Task : find median of discount column
+median_discount=df['Discount'].median()
+print(median_discount)
