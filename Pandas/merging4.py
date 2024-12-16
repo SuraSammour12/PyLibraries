@@ -36,7 +36,7 @@ print(new_employees)
 print("----------------------------------------------------")
 """
 we need to reset index because indices now 
-for Ali and Yafa is concat as it is :0,1 
+for Ali and Yafa is append as it is :0,1 
 so using reset_index() will fix this issue 
 """
 #new_employees=new_employees.reset_index()
