@@ -39,8 +39,21 @@ we need to reset index because indices now
 for Ali and Yafa is append as it is :0,1 
 so using reset_index() will fix this issue 
 """
-#new_employees=new_employees.reset_index()
-#print(new_employees)
-#OR 
+# new_employees=new_employees.reset_index()
+# print(new_employees)
+# OR 
 new_employees.reset_index(drop=True,inplace=True)
+print(new_employees)
+print("----------------------------------------------------")
+""" dropping rows """
+# method-1
+new_employees.drop(index=[3,5],inplace=True) # this one is better 
+# Or
+# employees=employees.drop(index=[3,5])
+print(new_employees)
+print("----------------------------------------------------")
+# dropping using condition
+rows_to_drop=new_employees[new_employees['Name']=='Ali'].index # note :using .index
+print(rows_to_drop) # index:4
+new_employees.drop(index=rows_to_drop,inplace=True)
 print(new_employees)
