@@ -11,7 +11,7 @@ print(df['experience_level'].unique().tolist())
 print(df['experience_level'].nunique())
 
 # imagine we don't have nunique function what would you do?
-"""use set datastructure because it Prevent duplicate"""
+"""use set data structure because it Prevent duplicate"""
 
 # Print the count of each unique value in the 'experience_level' column
 print(df['experience_level'].value_counts())
