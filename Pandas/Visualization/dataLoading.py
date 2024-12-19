@@ -44,3 +44,7 @@ print(df.loc[:3, 'SepalWidthCm'])
 # Close the connection to the SQLite database
 conn.close()
 print("--------------------------------------------------------------------------------")
+
+# this file extensions is used in data-heavy workflows.
+df5=pd.read_parquet('iris.parquet')
+print(df.iloc[:5])
