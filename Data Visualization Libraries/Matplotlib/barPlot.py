@@ -4,8 +4,6 @@ import numpy as np
 Importing Libraries:
 matplotlib.pyplot is used for creating visualizations.
 numpy is used for numerical operations.
-python
-Copy code
 """
 # This code creates a bar plot to visualize the given data, labels the axes, adds a legend, and saves the output as a JPG image file.
 
