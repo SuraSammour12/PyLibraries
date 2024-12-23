@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Load the data from the CSV file into a DataFrame
+# Load the built-in 'tips' dataset from Seaborn
 df = sns.load_dataset('tips')
 
 # Set the size of the plot
