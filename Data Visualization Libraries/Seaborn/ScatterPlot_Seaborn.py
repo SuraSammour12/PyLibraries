@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load the data from the CSV file into a DataFrame
-df = pd.read_csv('tips.csv')
+df = sns.load_dataset('tips')
 
 # Set the size of the plot
 plt.figure(figsize=(8,5))
