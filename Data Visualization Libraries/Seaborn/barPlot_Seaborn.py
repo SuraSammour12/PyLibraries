@@ -25,8 +25,9 @@ This shows the spread or variability of the total bill values around the mean
 # Add a title to the plot
 plt.title('AverageTotal Bill Per Day')
 
-# Add a title to the plot
+# Label the x-axis
 plt.xlabel('Day')
+# Label the y-axis
 plt.ylabel('Total Bill')
 
 # Save the plot as a high-quality PDF file named bar_plot_seaborn.pdf
